@@ -1,0 +1,89 @@
+<!-- 
+
+      ************************************************************
+      
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="author" content="Aryan Maurya">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="favicon.png">
+        <meta name="description"
+            content="This is online many in 1 game build for your imporove thing skill in this domain by aryan maurya enjoy your game">
+        <meta name="keywords"
+            content="many in 1,all inm 1, nice game, many games, all games, logic games ,logic,think,solve,best game,online games,play games,  online , games player , online  game,online games hub, fun free, online , game by aryan , aryan sir, aryan sir game">
+        <title>All in 1</title>
+               <link rel="stylesheet" href="style.css">
+               <script src="main.js"></script>
+        <script src="https://dragonmasterdev.000webhostapp.com/dragonsList.js"></script>
+    </head>
+    <body id="body" onload="load()">
+        <div id="menu">
+            <button class="menuButton" onclick="go('menu','breeding');breedingCave();">Breeding Cave</button><br />
+            <button class="menuButton" onclick="go('menu','treats')">Grow Treats</button><br />
+            <button class="menuButton" onclick="go('menu','feed')">Feed Dragons</button><br />
+            <button class="menuButton" onclick="go('menu','dragonarium');dragonariumDragons()">Dragonarium</button><br />
+            <button class="menuButton" onclick="go('menu','hatchery');">Hatchery</button><br />
+        </div>
+        <div class="none" id="treats">
+            <button onclick="go('treats','menu')">MENU</button><br />
+            <span class="farm" id="sfarm1"><img onclick="farm('1')" id="farm1" class="farmimg" src="https://vignette.wikia.nocookie.net/dragonvale/images/8/8b/HugeTreatFarm.png/revision/latest?cb=20120503070454"><img onclick="farm('2')" id="farm2" class="farmimg" src="https://vignette.wikia.nocookie.net/dragonvale/images/8/8b/HugeTreatFarm.png/revision/latest?cb=20120503070454"><br /><progress class="farmprog" max="100" value="0" id="farmProg1"></progress><progress class="farmprog" max="100" value="0" id="farmProg2"></progress></span><br />
+            <span class="farm" id="sfarm2"><img onclick="farm('3')" id="farm3" class="farmimg" src="https://vignette.wikia.nocookie.net/dragonvale/images/8/8b/HugeTreatFarm.png/revision/latest?cb=20120503070454"><img onclick="farm('4')" id="farm4" class="farmimg" src="https://vignette.wikia.nocookie.net/dragonvale/images/8/8b/HugeTreatFarm.png/revision/latest?cb=20120503070454"><br /><progress class="farmprog" max="100" value="0" id="farmProg3"></progress><progress class="farmprog" max="100" value="0" id="farmProg4"></progress></span><br />
+            <span class="farm" id="sfarm3"><img onclick="farm('5')" id="farm5" class="farmimg" src="https://vignette.wikia.nocookie.net/dragonvale/images/8/8b/HugeTreatFarm.png/revision/latest?cb=20120503070454"><img onclick="farm('6')" id="farm6" class="farmimg" src="https://vignette.wikia.nocookie.net/dragonvale/images/8/8b/HugeTreatFarm.png/revision/latest?cb=20120503070454"><br /><progress class="farmprog" max="100" value="0" id="farmProg5"></progress><progress class="farmprog" max="100" value="0" id="farmProg6"></progress></span><br />
+        </div>
+        <div class="none" id="breeding">
+            <button onclick="go('breeding','menu')">MENU</button><br /><br />
+            <div id="breedContainer">
+                <div class="left" id="dragon1"></div>
+                <br />+<br /><br />
+                <div class="left" id="dragon2"></div>
+                <br /><button id="equals" onclick="breed()">=</button><br /><br />
+                <div class="left" id="result"></div>
+                <br />
+            </div>
+            <div class="left" id="dragonsBreed"></div>
+        </div>
+        <div class="none" id="feed">
+            <button onclick="go('feed','menu')">MENU</button><br /><br />
+            <div id="food"><img src="https://vignette.wikia.nocookie.net/dragonvale/images/4/48/Zazzberries_render.png/revision/latest/scale-to-width-down/70?cb=20120213032642"><span id="treatNumber">0</span></div>
+            <div id="dragonsFeed"></div>
+        </div>
+        <div class="none" id="dragonarium">
+            <button onclick="go('dragonarium','menu')">MENU</button><br />
+            <div id="dragonariumDragons"></div>
+        </div>
+        <div class="none" id="hatchery">
+            <button onclick="go('hatchery','menu')">MENU</button><br /><br />
+            <div id="hatcheryEggs"></div>
+            <img src="https://vignette.wikia.nocookie.net/dragonvale/images/5/5e/Nursery1NestNew.png/revision/latest?cb=20141228230530"><br /><progress id="hatcheryProg" max="100" value="0"></progress>
+        </div>
+    </body>
+</html>
+
+<!-- 
+
+      ************************************************************
+      
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->

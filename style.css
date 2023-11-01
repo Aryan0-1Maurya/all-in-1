@@ -1,0 +1,125 @@
+/* Created by Jax */
+
+#body{
+    background-color:#3F69AA;
+    text-align:center;
+}
+.alert{
+    left:15%;
+    z-index:1000;
+    position:fixed;
+    color:#006E6D;
+    background-color:gray;
+    width:70%;
+    text-align:center;
+    background-image:url("https://image.freepik.com/free-vector/stone-wall-with-cartoon-style_1110-878.jpg");
+    top:20%;
+    height:auto;
+    box-shadow:3px 3px black;
+    border-radius:5%;
+    text-shadow:1px 1px black;
+    border:5px solid black;
+}
+#ok{
+    height:50px;
+    width:75px;
+    border-radius:10%;
+    border:2px solid #006E6D;
+    font-size:large;
+    background-color:darkGray;
+    float:right;
+}
+#ok:hover{
+    background-color:lightGray;
+}
+#menu{
+    display:none;
+}
+.none{
+    display:none;
+}
+button{
+    background-color:darkGray;
+    height:50px;
+    width:80%;
+    border-radius:5%;
+    border:2px solid #006E6D;
+}
+button:hover{
+    background-color:lightGray;
+    width:81%;
+}
+.farmimg{
+    width:25%;
+    height:auto;
+}
+.farmprog{
+    height:20px;
+    width:25%;
+}
+.dragonariumImage{
+    width:20%;
+    height:auto;
+}
+ #hatcheryEggs{
+    width:auto;
+    height:auto;
+    float:right;
+    background-color:gray;
+}
+ .hatcheryEggImage{
+    width:50px;
+    height:auto;
+    float:left;
+ }
+ .fixed{
+    position:fixed;
+ }
+#treatNumber{
+   font-size:200%;
+}
+#food{
+   float:left;
+}
+#dragonsFeed,#dragonsBreed{
+   width:auto;
+   height:auto;
+   background:gray;
+   float:right;
+}
+#dragonsBreed{
+   position:absolute;
+   top:100px;
+   right:0px;
+}
+.dragonsFeedImages,.dragonsBreedImages{
+   float:right;
+   width:100px;
+   height:auto;
+   border:3px solid black;
+}
+.left{
+   background-color: gray;
+   width:100px;
+   height:100px;
+   border:1px solid black;
+}
+#breedContainer{
+   width:100px;
+   position:fixed;
+}
+.right{
+   float:right;
+}
+.p100{
+   width:100px;
+   height:auto;
+}
+.p10{
+   height:100px;
+   width:auto;
+}
+#equals{
+   height:25px;
+   width:70%;
+}
